@@ -34,6 +34,7 @@ a{color:inherit}
 
 /* ヘッダー */
 .hd{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;padding:8px 12px;gap:8px}
+.hd__brand{text-decoration:none;color:inherit}
 .hd__brand img{height:22px;width:auto}
 .hd__brand small{display:block;font-size:10px;color:var(--sub);margin-top:2px;line-height:1.3}
 .hd__btn{display:flex;align-items:center;gap:6px;background:var(--line);color:#fff;text-decoration:none;font-weight:700;font-size:13px;padding:8px 12px;border-radius:6px;white-space:nowrap}
@@ -155,6 +156,13 @@ a{color:inherit}
 .feat{margin-top:28px}
 .feat h3{color:var(--red);font-size:17px;font-weight:700}
 .feat p{font-size:15px;color:#333;margin-top:8px}
+.mchart{margin-top:14px;background:#fff;border:2px solid var(--red);border-radius:12px;padding:14px}
+.mchart p{font-size:13px;font-weight:700;margin:0 0 8px}
+.mchart div{display:grid;grid-template-columns:52px 1fr 86px;align-items:center;gap:8px;margin-top:6px}
+.mchart span{font-size:13px;font-weight:700}
+.mchart i{display:block;height:14px;background:var(--red);border-radius:7px}
+.mchart b{font-size:14px;text-align:right}
+.mchart small{display:block;font-size:11px;color:var(--sub);margin-top:8px}
 .feat img{border-radius:12px;margin-top:14px;width:100%;aspect-ratio:3/2;object-fit:cover}
 
 /* 勤務時間 */
@@ -191,8 +199,6 @@ a{color:inherit}
 .story__title em{font-style:normal;color:var(--yellow)}
 .story__lead{text-align:center;color:#ddd;margin-top:14px;font-size:15px}
 .sstep{display:grid;grid-template-columns:40% 1fr;gap:14px;align-items:center;background:#fff;color:var(--ink);border-radius:12px;padding:12px;margin-top:0}
-.sstep:nth-of-type(even){grid-template-columns:1fr 40%}
-.sstep:nth-of-type(even) .sstep__img{order:2}
 .sstep__img{border-radius:8px;overflow:hidden;aspect-ratio:1/1}
 .sstep__img img{width:100%;height:100%;object-fit:cover}
 .sstep__no{display:inline-block;background:var(--red);color:#fff;font-weight:900;font-size:12px;padding:1px 8px;border-radius:3px;letter-spacing:.06em}
@@ -321,7 +327,7 @@ a{color:inherit}
     <div class="fact"><span>入社祝い金</span><b class="num">100</b><i>万円</i></div>
     <div class="fact"><span>個室寮の寮費</span><b class="num">0</b><i>円</i></div>
   </div>
-  <p class="kv__band">応募から面接対策まで<br>ソクワークが無料でサポート<small>正社員登用は過去5年間で1,022名</small></p>
+  <p class="kv__band">応募から面接対策まで<br>ソクワークが無料でサポート<small>正社員登用は2021〜2025年度で1,132名</small></p>
   <div class="kv__cta cta">
     <p class="cta__balloon">公式LINE友だち <b>70,000</b>人突破！</p>
     <a class="btn-line js-line" data-cta="b_kv" href="https://liff.sokuwork.com/sokuwork-toyota/open_line.html" target="_blank" rel="noopener"><img src="../img/icon_line.svg" alt="">公式LINEで応募する</a>
@@ -343,7 +349,7 @@ a{color:inherit}
     <div class="pt">
       <div class="pt__bar"><span class="pt__no">Point2</span><span class="pt__name">正社員登用制度</span></div>
       <div class="pt__body">
-        <div class="pt__fig"><span class="lbl">過去<br>5年間</span><span class="big num">1,022</span><span class="unit">名</span></div>
+        <div class="pt__fig"><span class="lbl">2021〜<br>25年度</span><span class="big num">1,132</span><span class="unit">名</span></div>
         <p class="pt__sub">期間従業員として1年働くと、登用試験に挑戦できます</p>
       </div>
     </div>
@@ -379,7 +385,7 @@ a{color:inherit}
           <tr><td>6ヶ月満了</td><td>207,400円</td><td>183,000円</td></tr>
           <tr><td>12ヶ月満了</td><td>305,000円</td><td>183,000円</td></tr>
           <tr><td>24ヶ月満了</td><td>353,800円</td><td>183,000円</td></tr>
-          <tr><td>35ヶ月満了</td><td>396,000円</td><td>183,000円</td></tr>
+          <tr><td>35ヶ月満了</td><td>396,000円</td><td>180,000円</td></tr>
         </table>
       </div>
     </div>
@@ -391,13 +397,13 @@ a{color:inherit}
   <div class="wrap">
     <span class="dorm__kicker">個室寮</span>
     <h2 class="dorm__title">仕事のあとは、<br><em>自分だけの部屋</em>で<br>しっかり休める。</h2>
-    <p class="lead">トヨタの期間従業員は、一人部屋タイプの個室寮に入れます。<br>相部屋ではないので、交替勤務でも眠りやすい環境です。</p>
+    <p class="lead">トヨタの期間従業員寮は、多くが一人部屋タイプの個室寮。<br>自分だけの部屋なので、交替勤務でも眠りやすい環境です。</p>
     <div class="dorm__zero">
       <ul><li>家賃</li><li>水道費</li><li>光熱費</li></ul>
       <span class="z num">0<small>円</small></span>
     </div>
     <div class="dorm__gal">
-      <figure class="wide"><img src="../img/dorm_room_gen.webp" alt="ベッドと机、テレビ、冷蔵庫がある一人部屋" loading="lazy"><figcaption>人気の一人部屋タイプ。WiFiも順次導入中！</figcaption></figure>
+      <figure class="wide"><img src="../img/dorm_room_gen.webp" alt="ベッドと机、テレビ、冷蔵庫がある一人部屋" loading="lazy"><figcaption>人気の一人部屋タイプ。</figcaption></figure>
       <figure><img src="../img/dorm_bath.webp" alt="寮の共同大浴場" loading="lazy"><figcaption>共同の大浴場で、仕事の疲れをいやせる</figcaption></figure>
       <figure><img src="../img/shokudo.webp" alt="寮の食堂" loading="lazy"><figcaption>食堂では温かい食事を手ごろな価格で</figcaption></figure>
     </div>
@@ -407,8 +413,8 @@ a{color:inherit}
       <li><div><b>工場・寮の食堂で食事ができる</b><span>栄養バランスのとれた温かい食事を、手ごろな価格で食べられます。</span></div></li>
       <li><div><b>工場へは無料の送迎バスか徒歩で</b><span>寮から工場まで、送迎バスまたは徒歩で通えます。</span></div></li>
     </ul>
-    <blockquote class="quote"><img src="../img/avatar_30.webp" alt="" loading="lazy" class="quote__ava">入社後、想像より寮がキレイでびっくりしました！TVとかベッドとかもあって、あんまり用意しなくても暮らし始められたのが良かったです。<cite>30代・男性</cite></blockquote>
-    <p class="note-c">※写真はイメージです。部屋の間取り・設備は寮によって異なります。</p>
+    <span class="draft" style="margin:16px 0 0">仮原稿｜実際の声に差し替え</span><blockquote class="quote" style="margin-top:6px"><img src="../img/avatar_30.webp" alt="" loading="lazy" class="quote__ava">部屋にテレビやベッドがそろっていたので、ほとんど荷物を持たずに来られました。自分だけの部屋なので、夜勤明けもよく眠れます。<cite>30代・男性</cite></blockquote>
+    <p class="note-c">※写真はイメージです。寮の部屋タイプ（個室・相部屋など）と設備は、配属先の寮によって異なります。Wi-Fiの有無も寮によって異なります。</p>
   </div>
 </section>
 
@@ -432,9 +438,9 @@ a{color:inherit}
       <p>面接で聞かれやすいことも前もって教えてもらえたので、当日は落ち着いて話せました。いまは個室の寮なので、2直の週も昼間しっかり眠れています。</p>
       <p class="voice48__sum"><b>年齢で迷っている方へ</b>　40代後半で入社した方もいます。応募の前に、まずは公式LINEで相談してみてください。</p>
     </article>
-    <div class="voices">
-      <div class="vc"><img src="../img/avatar_20a.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>資格や経験もなかったので心配でしたが、キャリアアドバイザーの方が一緒に自己PRを考えてくれて助かりました！とにかく稼ぎが良いので満足してます。</p></div></div>
-      <div class="vc"><img src="../img/avatar_20b.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>入社からだいたい1年後に登用試験を受けて、無事トヨタの正社員になれました！</p></div></div>
+    <div class="voices"><span class="draft" style="margin:0">仮原稿｜下の2人も実際の声に差し替え</span>
+      <div class="vc"><img src="../img/avatar_20a.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>未経験で不安でしたが、ソクワークの担当の方が面接で話すことを一緒に考えてくれて安心できました。寮費がかからないぶん、しっかり貯金できています。</p></div></div>
+      <div class="vc"><img src="../img/avatar_20b.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>最初から正社員をめざして入りました。1年働くと登用試験を受けられるので、目標に向かって働けています。</p></div></div>
     </div>
   </div>
 </section>
@@ -456,7 +462,7 @@ a{color:inherit}
     <div class="feat">
       <h3>満了するたびに満了金</h3>
       <p>契約が満了するごとに満了慰労金・満了報奨金が出ます。長く働くほど金額が上がり、35ヶ月満了では慰労金396,000円になります。</p>
-      <img src="../img/factory_wide.webp" alt="自動車の組立ライン" loading="lazy">
+      <div class="mchart"><p>満了慰労金の例（6ヶ月ごとの契約満了時）</p><div><span>6ヶ月</span><i style="width:52%"></i><b>207,400円</b></div><div><span>12ヶ月</span><i style="width:77%"></i><b>305,000円</b></div><div><span>24ヶ月</span><i style="width:89%"></i><b>353,800円</b></div><div><span>35ヶ月</span><i style="width:100%"></i><b>396,000円</b></div><small>※このほかに満了報奨金が出ます。金額は稼働日数による例です。</small></div>
     </div>
   </div>
 </section>
@@ -477,7 +483,7 @@ a{color:inherit}
     </table>
     <p class="note" style="margin-top:8px">※配属先により、連続3交替制勤務・常昼勤務（7:55〜16:50）の場合もあります。※トヨタ社内カレンダーに準じます。</p>
     <h2 class="h2" style="margin-top:48px">勤務地</h2>
-    <p class="lead">愛知県の豊田市・みよし市・碧南市・田原市にある主要10工場のいずれか。面接を経て決まります。</p>
+    <p class="lead">愛知県の豊田市・みよし市・碧南市・田原市にある主要10工場のいずれか。配属先の工場は、入社後の研修中にお知らせします。</p>
     <ul class="plants"><li>本社工場</li><li>元町工場</li><li>上郷工場</li><li>高岡工場</li><li>三好工場</li><li>堤工場</li><li>明知工場</li><li>下山工場</li><li>衣浦工場</li><li>田原工場</li></ul>
   </div>
 </section>
@@ -486,11 +492,11 @@ a{color:inherit}
 <section class="sec soku" id="soku">
   <div class="wrap">
     <p class="soku__kick">応募の窓口は「ソクワーク」</p>
-    <h2 class="soku__title">公式LINEの友だち<br><em>70,000人</em>が選んだ<br>工場専門の転職サポート</h2>
+    <h2 class="soku__title">公式LINEの友だち<br><em>70,000人</em>突破！<br>工場専門の転職サポート</h2>
     <div class="soku__visual"><img src="../img/line70000.webp" alt="ソクワーク公式LINEのお友だち登録数70,000人突破" loading="lazy"></div>
     <div class="soku__pts">
       <div><b>無料</b><span>応募から入社まで<br>サポート</span></div>
-      <div><b>全国5拠点</b><span>大阪・東京・札幌<br>名古屋・福岡</span></div>
+      <div><b>全国7拠点</b><span>大阪・東京・札幌・名古屋<br>福岡・仙台・広島</span></div>
       <div><b>国の許可</b><span>有料職業紹介<br>労働者派遣</span></div>
     </div>
     <div class="soku__visual" style="margin-top:16px"><img src="../img/yuko_point.webp" alt="スマホを手に公式LINEを紹介する小倉優子さん" loading="lazy" style="width:72%;margin:0 auto"></div>
@@ -521,12 +527,12 @@ a{color:inherit}
       </div>
       <div class="sarrow"></div>
       <div class="sstep">
-        <div class="sstep__img"><img src="../img/advisor.webp" alt="ヘッドセットで相談にのるキャリアアドバイザー" loading="lazy"></div>
+        <div class="sstep__img"><img src="../img/step4_prep.webp" alt="ノートに面接の準備を書き出す男性" loading="lazy"></div>
         <div><span class="sstep__no">STEP 4</span><h3><span class="nb">だからこそ、</span><span class="nb">面接の準備が</span><span class="nb">カギ。</span></h3><p>志望動機の考え方、WEB面接の受け方、当日の注意点。準備した人ほど、落ち着いて話せます。</p></div>
       </div>
       <div class="sarrow"></div>
       <div class="sstep">
-        <div class="sstep__img"><img src="../img/success_b.webp" alt="仕事終わりに笑いながら工場を出る2人" loading="lazy"></div>
+        <div class="sstep__img"><img src="../img/advisor.webp" alt="ヘッドセットで相談にのるキャリアアドバイザー" loading="lazy"></div>
         <div><span class="sstep__no">STEP 5</span><h3><span class="nb">ソクワークなら、</span><span class="nb">応募から</span><span class="nb">面接対策まで</span><span class="nb">無料でサポート。</span></h3><p>キャリアアドバイザーが自己PRを一緒に考え、入社・入寮の準備までお手伝いします。</p></div>
       </div>
     </div>
@@ -553,7 +559,7 @@ a{color:inherit}
     <div style="margin-top:28px">
       <div class="fl"><h3><span>01</span>応募</h3><p>公式LINEを友だち追加して、トーク画面から応募できます。</p></div>
       <div class="fl"><h3><span>02</span>面接予約</h3><p>ソクワークのキャリアアドバイザーから、面接予約のご連絡をします。（営業時間 10時〜19時）</p><div class="sup"><b>ソクワークのサポート</b>選考の流れや、面接前にやることをくわしくご説明。不安な点も相談できます。</div></div>
-      <div class="fl"><h3><span>03</span>面接準備</h3><p>志望動機を見直し、面接でスムーズに受け答えできるように準備します。</p><div class="sup"><b>ソクワークのサポート</b>面接官に伝えるべきポイントや、気をつける点をアドバイス。自信をつけて面接にのぞめます。</div></div>
+      <div class="fl"><h3><span>03</span>面接準備</h3><p>志望動機を見直し、面接でスムーズに受け答えできるように準備します。トヨタの選考に必要な履歴書・顔写真の登録もご案内します。</p><div class="sup"><b>ソクワークのサポート</b>面接官に伝えるべきポイントや、気をつける点をアドバイス。自信をつけて面接にのぞめます。</div></div>
       <div class="fl"><h3><span>04</span>WEB面接</h3><p>最短3日で面接。オンラインなので、自宅から受けられます。</p><div class="sup"><b>ソクワークのサポート</b>用意しておくものや、WEB面接の注意点を事前にお伝えします。</div></div>
       <div class="fl"><h3><span>05</span>合否連絡</h3><p>1週間以内に、トヨタからメールで連絡があります。</p><div class="sup"><b>ソクワークのサポート</b>入社・入寮に必要なものを、分かりやすい資料でお送りします。</div></div>
       <div class="fl"><h3><span>06</span>入社</h3><p>応募から最短2週間前後で入社できます！</p></div>
