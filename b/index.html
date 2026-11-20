@@ -130,6 +130,7 @@ a{color:inherit}
 .dorm__list b{display:block;font-weight:700}
 .dorm__list span{font-size:14px;color:var(--sub)}
 .quote{background:#fff;border-left:4px solid var(--red);padding:14px 16px;margin-top:16px;font-size:15px}
+.quote__ava{float:left;width:52px;height:52px;border-radius:50%;margin:2px 12px 4px 0}
 .quote cite{display:block;font-style:normal;font-size:12px;color:var(--mute);margin-top:6px}
 .note-c{font-size:12px;color:var(--mute);margin-top:10px}
 
@@ -167,7 +168,8 @@ a{color:inherit}
 .cal .d1{background:var(--red);color:#fff;font-weight:700}
 .cal .d2{background:#f7b5b5;font-weight:700}
 .cal .off{background:var(--yellow);font-weight:900;font-size:16px}
-.map{margin-top:20px;border-radius:12px;overflow:hidden;border:1px solid var(--rule)}
+.plants{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:20px}
+.plants li{background:#fff;border:2px solid var(--red);border-radius:8px;text-align:center;font-weight:700;padding:10px 4px}
 
 /* ソクワーク */
 .soku{background:linear-gradient(180deg,#fff7f0 0%,#fff 100%)}
@@ -396,7 +398,7 @@ a{color:inherit}
     </div>
     <div class="dorm__gal">
       <figure class="wide"><img src="../img/dorm_room_gen.webp" alt="ベッドと机、テレビ、冷蔵庫がある一人部屋" loading="lazy"><figcaption>人気の一人部屋タイプ。WiFiも順次導入中！</figcaption></figure>
-      <figure><img src="../img/dorm-bath.webp" alt="寮の共同大浴場" loading="lazy"><figcaption>共同の大浴場で、仕事の疲れをいやせる</figcaption></figure>
+      <figure><img src="../img/dorm_bath.webp" alt="寮の共同大浴場" loading="lazy"><figcaption>共同の大浴場で、仕事の疲れをいやせる</figcaption></figure>
       <figure><img src="../img/shokudo.webp" alt="寮の食堂" loading="lazy"><figcaption>食堂では温かい食事を手ごろな価格で</figcaption></figure>
     </div>
     <ul class="dorm__list">
@@ -405,7 +407,7 @@ a{color:inherit}
       <li><div><b>工場・寮の食堂で食事ができる</b><span>栄養バランスのとれた温かい食事を、手ごろな価格で食べられます。</span></div></li>
       <li><div><b>工場へは無料の送迎バスか徒歩で</b><span>寮から工場まで、送迎バスまたは徒歩で通えます。</span></div></li>
     </ul>
-    <blockquote class="quote">入社後、想像より寮がキレイでびっくりしました！TVとかベッドとかもあって、あんまり用意しなくても暮らし始められたのが良かったです。<cite>30代・男性</cite></blockquote>
+    <blockquote class="quote"><img src="../img/avatar_30.webp" alt="" loading="lazy" class="quote__ava">入社後、想像より寮がキレイでびっくりしました！TVとかベッドとかもあって、あんまり用意しなくても暮らし始められたのが良かったです。<cite>30代・男性</cite></blockquote>
     <p class="note-c">※写真はイメージです。部屋の間取り・設備は寮によって異なります。</p>
   </div>
 </section>
@@ -431,8 +433,8 @@ a{color:inherit}
       <p class="voice48__sum"><b>年齢で迷っている方へ</b>　40代後半で入社した方もいます。応募の前に、まずは公式LINEで相談してみてください。</p>
     </article>
     <div class="voices">
-      <div class="vc"><img src="../img/voice-20s-1.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>資格や経験もなかったので心配でしたが、キャリアアドバイザーの方が一緒に自己PRを考えてくれて助かりました！とにかく稼ぎが良いので満足してます。</p></div></div>
-      <div class="vc"><img src="../img/voice-20s-2.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>入社からだいたい1年後に登用試験を受けて、無事トヨタの正社員になれました！</p></div></div>
+      <div class="vc"><img src="../img/avatar_20a.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>資格や経験もなかったので心配でしたが、キャリアアドバイザーの方が一緒に自己PRを考えてくれて助かりました！とにかく稼ぎが良いので満足してます。</p></div></div>
+      <div class="vc"><img src="../img/avatar_20b.webp" alt="" loading="lazy"><div><b>20代・男性</b><p>入社からだいたい1年後に登用試験を受けて、無事トヨタの正社員になれました！</p></div></div>
     </div>
   </div>
 </section>
@@ -444,17 +446,17 @@ a{color:inherit}
     <div class="feat">
       <h3>週休2日制・長期連休あり</h3>
       <p>原則、週休2日（土・日曜日）。GW・夏季・年末年始には長期連休もあり、メリハリをつけて働けます。</p>
-      <img src="../img/solution-future.webp" alt="休日に川沿いを歩く男性" loading="lazy">
+      <img src="../img/holiday.webp" alt="休日に川沿いを自転車で走る男性" loading="lazy">
     </div>
     <div class="feat">
       <h3>未経験歓迎・入社時の研修あり</h3>
       <p>入社時の研修で、工具の使い方などをイチから学べます。期間従業員の多くが未経験からのスタートです。</p>
-      <img src="../img/work-training.webp" alt="先輩が新人に工具の使い方を教えている様子" loading="lazy">
+      <img src="../img/training.webp" alt="ベテランが新人に工具の持ち方を教えている様子" loading="lazy">
     </div>
     <div class="feat">
       <h3>満了するたびに満了金</h3>
       <p>契約が満了するごとに満了慰労金・満了報奨金が出ます。長く働くほど金額が上がり、35ヶ月満了では慰労金396,000円になります。</p>
-      <img src="../img/work-assembly.webp" alt="組立ラインで部品を取り付ける従業員" loading="lazy">
+      <img src="../img/factory_wide.webp" alt="自動車の組立ライン" loading="lazy">
     </div>
   </div>
 </section>
@@ -476,7 +478,7 @@ a{color:inherit}
     <p class="note" style="margin-top:8px">※配属先により、連続3交替制勤務・常昼勤務（7:55〜16:50）の場合もあります。※トヨタ社内カレンダーに準じます。</p>
     <h2 class="h2" style="margin-top:48px">勤務地</h2>
     <p class="lead">愛知県の豊田市・みよし市・碧南市・田原市にある主要10工場のいずれか。面接を経て決まります。</p>
-    <div class="map"><img src="../img/requirements-map.webp" alt="愛知県内のトヨタ主要10工場の地図" loading="lazy"></div>
+    <ul class="plants"><li>本社工場</li><li>元町工場</li><li>上郷工場</li><li>高岡工場</li><li>三好工場</li><li>堤工場</li><li>明知工場</li><li>下山工場</li><li>衣浦工場</li><li>田原工場</li></ul>
   </div>
 </section>
 
@@ -504,7 +506,7 @@ a{color:inherit}
     <p class="story__lead">待遇がいい仕事ほど、応募する人も多い。<br>だから、受かるための準備が大切です。</p>
     <div style="margin-top:28px">
       <div class="sstep">
-        <div class="sstep__img"><img src="../img/hero-worker.webp" alt="トヨタの工場で働く従業員" loading="lazy"></div>
+        <div class="sstep__img"><img src="../img/line_main.webp" alt="組立ラインでボルトを締める従業員" loading="lazy"></div>
         <div><span class="sstep__no">STEP 1</span><h3><span class="nb">トヨタは、</span><span class="nb">待遇がいい。</span></h3><p>年収例560万円以上、祝い金100万円、寮費0円。世界のトヨタで働けます。</p></div>
       </div>
       <div class="sarrow"></div>
@@ -514,7 +516,7 @@ a{color:inherit}
       </div>
       <div class="sarrow"></div>
       <div class="sstep sstep--turn">
-        <div class="sstep__img"><img src="../img/worry-factory.webp" alt="書類を見て考え込む男性" loading="lazy"></div>
+        <div class="sstep__img"><img src="../img/step3_b.webp" alt="公園のベンチでうつむく男性" loading="lazy"></div>
         <div><span class="sstep__no">STEP 3</span><h3><span class="nb">どんなに</span><span class="nb">待遇がよくても、</span><span class="nb">受からなければ</span><span class="nb">始まらない。</span></h3><p>「準備しておけばよかった」と後悔しないために。</p></div>
       </div>
       <div class="sarrow"></div>
@@ -524,7 +526,7 @@ a{color:inherit}
       </div>
       <div class="sarrow"></div>
       <div class="sstep">
-        <div class="sstep__img"><img src="../img/invite-workers.webp" alt="工場の前で笑い合う作業着の2人" loading="lazy" style="object-position:40% 50%"></div>
+        <div class="sstep__img"><img src="../img/success_b.webp" alt="仕事終わりに笑いながら工場を出る2人" loading="lazy"></div>
         <div><span class="sstep__no">STEP 5</span><h3><span class="nb">ソクワークなら、</span><span class="nb">応募から</span><span class="nb">面接対策まで</span><span class="nb">無料でサポート。</span></h3><p>キャリアアドバイザーが自己PRを一緒に考え、入社・入寮の準備までお手伝いします。</p></div>
       </div>
     </div>

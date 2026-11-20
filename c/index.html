@@ -42,7 +42,7 @@ a{color:inherit}
 
 /* KV */
 .kv{position:relative;background:linear-gradient(160deg,#0f2a47 0%,#13467a 55%,#1b6fb3 100%);color:#fff;padding:22px var(--pad) 18px;overflow:hidden}
-.kv::before{content:"";position:absolute;inset:0;background:url(../img/appeal-worker.webp) center/cover;opacity:.16}
+.kv::before{content:"";position:absolute;inset:0;background:url(../img/factory_wide.webp) center/cover;opacity:.16}
 .kv > *{position:relative}
 .kv__tag{display:inline-block;background:#fff;color:var(--navy);font-weight:900;font-size:15px;padding:2px 10px;transform:rotate(-4deg)}
 .kv__title{font-size:34px;font-weight:900;line-height:1.3;margin-top:12px;text-shadow:0 2px 8px rgba(0,0,0,.35)}
@@ -240,6 +240,8 @@ a{color:inherit}
 .rq ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin-top:8px;font-size:14px}
 .rq ul li::before{content:"・";color:var(--blue)}
 .rq p{font-size:14px;margin-top:6px}
+.plants{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:10px}
+.plants li{background:#fff;border:1.5px solid var(--sky2);border-radius:6px;text-align:center;font-weight:700;font-size:14px;padding:8px 4px}
 
 /* FAQ */
 .faq details{background:var(--blue);border-radius:6px;margin-top:10px;color:#fff}
@@ -349,9 +351,9 @@ a{color:inherit}
 <section class="worry">
   <h2>こんなお悩みありませんか？</h2>
   <div style="margin-top:14px">
-    <div class="wr"><p>家賃の支払いで<br>生活がキツい…</p><img src="../img/worry-rent.webp" alt="ソファで天井を見上げる男性" loading="lazy"></div>
-    <div class="wr"><p>相部屋の寮は<br>ちょっと不安…</p><img src="../img/worry-factory.webp" alt="書類を見て考え込む男性" loading="lazy"></div>
-    <div class="wr"><p>年齢や経験で<br>受かるか心配…</p><img src="../img/worry-hobby.webp" alt="店の前で考える男性" loading="lazy"></div>
+    <div class="wr"><p>家賃の支払いで<br>生活がキツい…</p><img src="../img/worry_rent.webp" alt="請求書を前に考え込む男性" loading="lazy"></div>
+    <div class="wr"><p>相部屋の寮は<br>ちょっと不安…</p><img src="../img/worry_dorm.webp" alt="相部屋の二段ベッドに座る男性" loading="lazy"></div>
+    <div class="wr"><p>年齢や経験で<br>受かるか心配…</p><img src="../img/worry_age.webp" alt="スマホで求人を見る40代の男性" loading="lazy"></div>
   </div>
   <div class="worry__arrow"></div>
   <div class="solve" style="background:#fff;margin-top:-1px">
@@ -411,8 +413,8 @@ a{color:inherit}
       <div class="z"><small>すべて</small><b class="num">0</b><i>円</i></div>
     </div>
     <div class="slider" aria-label="寮の写真">
-      <figure><img src="../img/dorm-room.webp" alt="寮の個室" loading="lazy"><figcaption><b>個室の内装</b>人気の一人部屋タイプ。WiFiも順次導入中！</figcaption></figure>
-      <figure><img src="../img/dorm-bath.webp" alt="寮の大浴場" loading="lazy"><figcaption><b>そのほか設備</b>共同の大浴場で、仕事のあとは湯船でひと息。</figcaption></figure>
+      <figure><img src="../img/dorm_room2.webp" alt="窓辺に机がある寮の個室" loading="lazy"><figcaption><b>個室の内装</b>人気の一人部屋タイプ。WiFiも順次導入中！</figcaption></figure>
+      <figure><img src="../img/dorm_bath.webp" alt="寮の大浴場" loading="lazy"><figcaption><b>そのほか設備</b>共同の大浴場で、仕事のあとは湯船でひと息。</figcaption></figure>
       <figure><img src="../img/shokudo.webp" alt="寮の食堂" loading="lazy"><figcaption><b>食堂</b>栄養バランスのとれた温かい食事を手ごろな価格で。</figcaption></figure>
     </div>
     <p class="swipe">スワイプで写真を見る →</p>
@@ -434,13 +436,13 @@ a{color:inherit}
 <section class="sec" id="p3">
   <div class="wrap">
     <div class="pt__head"><span class="pt__no">POINT3</span><small>工場ワーク初めてでも安心！</small><h3>丁寧に教える研修制度</h3></div>
-    <div class="train"><p>トヨタでは<em>未経験の方も安心して仕事に臨める</em>よう、万全のフォロー体制。入社時の研修で、工具の使い方などをイチからしっかり学べます。</p><img src="../img/work-training.webp" alt="先輩が新人に工具の使い方を教えている様子" loading="lazy"></div>
+    <div class="train"><p>トヨタでは<em>未経験の方も安心して仕事に臨める</em>よう、万全のフォロー体制。入社時の研修で、工具の使い方などをイチからしっかり学べます。</p><img src="../img/training.webp" alt="ベテランが新人に工具の持ち方を教えている様子" loading="lazy"></div>
     <p style="font-weight:700;text-align:center;margin-top:22px">トヨタ期間従業員の業務内容</p>
     <div class="jobs">
-      <div><img src="../img/work-assembly.webp" alt="車体に部品を取り付ける従業員" loading="lazy"><b>① 部品の組付け・組立</b><p>ドア・シート・タイヤなどを、車体の決められた位置に取り付けます。</p></div>
-      <div><img src="../img/work-engine.webp" alt="エンジンを組み立てる従業員" loading="lazy"><b>② エンジン・駆動部品の組立</b><p>エンジンを構成する部品の組立や、車両への搭載を行います。</p></div>
-      <div><img src="../img/work-inspection.webp" alt="完成車を確認する従業員" loading="lazy"><b>③ 完成車の検査</b><p>外観や内装、ブレーキ・ライトなどの動作を確認します。</p></div>
-      <div><img src="../img/work-parts.webp" alt="部品を運ぶ従業員" loading="lazy"><b>④ 部品の仕分け・運搬</b><p>力仕事以外のパートもあります。女性の配置も多い工程です。</p></div>
+      <div><img src="../img/job_assembly.webp" alt="ドアに内装部品を取り付ける従業員" loading="lazy"><b>① 部品の組付け・組立</b><p>ドア・シート・タイヤなどを、車体の決められた位置に取り付けます。</p></div>
+      <div><img src="../img/job_engine.webp" alt="エンジンに部品を取り付ける従業員" loading="lazy"><b>② エンジン・駆動部品の組立</b><p>エンジンを構成する部品の組立や、車両への搭載を行います。</p></div>
+      <div><img src="../img/job_inspection.webp" alt="完成車のライトを確認する従業員" loading="lazy"><b>③ 完成車の検査</b><p>外観や内装、ブレーキ・ライトなどの動作を確認します。</p></div>
+      <div><img src="../img/job_parts.webp" alt="棚から部品を集める従業員" loading="lazy"><b>④ 部品の仕分け・運搬</b><p>力仕事以外のパートもあります。女性の配置も多い工程です。</p></div>
     </div>
     <p class="swipe">スワイプで見る →　※配属先により異なります</p>
   </div>
@@ -468,15 +470,15 @@ a{color:inherit}
     <div class="ttl"><span class="en">STORY</span><small>なぜソクワークから応募するの？</small><h2>「トヨタで働きたい」を<br>「トヨタで働ける」へ</h2></div>
     <p class="story__lead">待遇がいい仕事ほど、受かるための準備が大切です。</p>
     <div style="margin-top:26px">
-      <div class="st"><div class="st__img"><img src="../img/appeal-worker.webp" alt="トヨタの工場で働く従業員" loading="lazy"></div><div><p class="st__no">STEP<b>1</b></p><h3><span class="nb">トヨタは、</span><span class="nb">会社としても</span><span class="nb">待遇としても</span><span class="nb">魅力的。</span></h3><p>年収例560万円以上、祝い金100万円、寮費0円。正社員への道もあります。</p></div></div>
+      <div class="st"><div class="st__img"><img src="../img/factory_wide.webp" alt="自動車の組立ライン" loading="lazy"></div><div><p class="st__no">STEP<b>1</b></p><h3><span class="nb">トヨタは、</span><span class="nb">会社としても</span><span class="nb">待遇としても</span><span class="nb">魅力的。</span></h3><p>年収例560万円以上、祝い金100万円、寮費0円。正社員への道もあります。</p></div></div>
       <span class="st__arrow"></span>
       <div class="st"><div class="st__img"><img src="../img/interview.webp" alt="オンライン面接を受ける男性" loading="lazy" style="object-position:55% 50%"></div><div><p class="st__no">STEP<b>2</b></p><h3><span class="nb">そのぶん</span><span class="nb">人気が高く、</span><span class="nb">面接も</span><span class="nb">かんたんではない。</span></h3><p>全国から応募が集まります。面接では、働く意欲や長く続けられるかを見られます。</p></div></div>
       <span class="st__arrow"></span>
-      <div class="st st--key"><div class="st__img"><img src="../img/interview2.webp" alt="画面を見つめて考え込む男性" loading="lazy" style="object-position:62% 40%"></div><div><p class="st__no">STEP<b>3</b></p><h3><span class="nb">どれだけ</span><span class="nb">待遇がよくても、</span><span class="nb">採用されなければ</span><span class="nb">意味がない。</span></h3><p>「もっと準備しておけば…」とならないために。</p></div></div>
+      <div class="st st--key"><div class="st__img"><img src="../img/step3_b.webp" alt="公園のベンチでうつむく男性" loading="lazy" style="object-position:30% 40%"></div><div><p class="st__no">STEP<b>3</b></p><h3><span class="nb">どれだけ</span><span class="nb">待遇がよくても、</span><span class="nb">採用されなければ</span><span class="nb">意味がない。</span></h3><p>「もっと準備しておけば…」とならないために。</p></div></div>
       <span class="st__arrow"></span>
       <div class="st"><div class="st__img"><img src="../img/advisor.webp" alt="相談にのるキャリアアドバイザー" loading="lazy"></div><div><p class="st__no">STEP<b>4</b></p><h3><span class="nb">だからこそ、</span><span class="nb">面接対策と</span><span class="nb">転職サポートが</span><span class="nb">大切。</span></h3><p>志望動機の伝え方、WEB面接の受け方、当日の注意点。準備した人ほど、自信をもって話せます。</p></div></div>
       <span class="st__arrow"></span>
-      <div class="st"><div class="st__img"><img src="../img/requirements-promotion.webp" alt="工場の前でヘルメットを抱えて笑う作業着の女性" loading="lazy"></div><div><p class="st__no">STEP<b>5</b></p><h3><span class="nb">ソクワークなら、</span><span class="nb">応募から</span><span class="nb">面接対策まで</span><span class="nb">無料でサポート。</span></h3><p>キャリアアドバイザーが自己PRを一緒に考え、入社・入寮の準備までお手伝いします。</p></div></div>
+      <div class="st"><div class="st__img"><img src="../img/success_c.webp" alt="入社初日に工場の前でヘルメットを抱えて笑う男性" loading="lazy"></div><div><p class="st__no">STEP<b>5</b></p><h3><span class="nb">ソクワークなら、</span><span class="nb">応募から</span><span class="nb">面接対策まで</span><span class="nb">無料でサポート。</span></h3><p>キャリアアドバイザーが自己PRを一緒に考え、入社・入寮の準備までお手伝いします。</p></div></div>
     </div>
     <div class="goal">
       <div class="goal__hd"><p>ソクワークといっしょに</p><h3>「トヨタで働きたい」を<br><em>「トヨタで働ける」</em>に。</h3></div>
@@ -513,8 +515,8 @@ a{color:inherit}
       <div class="top"><img src="../img/voice48.webp" alt="40代後半で入社した先輩" loading="lazy"><div><b>40代後半で入社</b><strong><span class="nb">「正直、</span><span class="nb">ダメもとでした」</span></strong><span class="note">男性・入社時47歳</span></div></div>
       <div class="say">期間工は若い人ばかりだと思っていて、正直ダメもとでした。ソクワークのアドバイザーさんが、これまでの仕事で続けてきたことを、面接でどう伝えるか一緒に整理してくれたので、落ち着いて話せました。今は個室の寮で、2直の週も昼にしっかり眠れています。</div>
     </div>
-    <div class="v"><figure><img src="../img/voice-20s-1.webp" alt="" loading="lazy">20代・男性</figure><div class="say">資格や経験もなかったので心配だったんですけど、キャリアアドバイザーの方が一緒に自己PRを考えてくれて助かりました！とにかく稼ぎが良いので満足してます。</div></div>
-    <div class="v"><figure><img src="../img/voice-20s-2.webp" alt="" loading="lazy">20代・男性</figure><div class="say">正社員になりたい！っていう気持ちで頑張りました。入社からだいたい1年後に登用試験を受けて、無事トヨタの正社員になれました！</div></div>
+    <div class="v"><figure><img src="../img/avatar_20a.webp" alt="" loading="lazy">20代・男性</figure><div class="say">資格や経験もなかったので心配だったんですけど、キャリアアドバイザーの方が一緒に自己PRを考えてくれて助かりました！とにかく稼ぎが良いので満足してます。</div></div>
+    <div class="v"><figure><img src="../img/avatar_20b.webp" alt="" loading="lazy">20代・男性</figure><div class="say">正社員になりたい！っていう気持ちで頑張りました。入社からだいたい1年後に登用試験を受けて、無事トヨタの正社員になれました！</div></div>
   </div>
 </section>
 
@@ -535,7 +537,7 @@ a{color:inherit}
     <div class="rq"><h3>手当・待遇・福利厚生</h3><ul><li>赴任手当</li><li>家族手当</li><li>経験者手当</li><li>赴任旅費手当</li><li>社会保険完備</li><li>交通費支給</li><li>食費補助</li><li>個室寮完備</li><li>寮費・光熱費無料</li><li>無料送迎あり</li><li>再就職支援制度</li><li>社員登用制度あり</li></ul></div>
     <div class="rq"><h3>勤務時間</h3><p>連続2交替制勤務／実働7時間35分<br>1直 6:25〜15:05　2直 16:00〜翌0:40（1週間ごとに交替）</p><p class="note">※配属先により連続3交替制勤務・常昼勤務（7:55〜16:50）の場合もあります。</p></div>
     <div class="rq"><h3>休日休暇</h3><p><b style="font-size:20px">週休2日制（土日）</b><br>GW・夏季・年末年始の連休もあります。</p></div>
-    <div class="rq"><h3>勤務地</h3><p>愛知県の豊田市・みよし市・碧南市・田原市にある主要10工場のいずれか（面接を経て決定）。</p><img src="../img/requirements-map.webp" alt="愛知県内のトヨタ主要10工場の地図" loading="lazy" style="border-radius:10px;margin-top:10px"></div>
+    <div class="rq"><h3>勤務地</h3><p>愛知県の豊田市・みよし市・碧南市・田原市にある主要10工場のいずれか（面接を経て決定）。</p><ul class="plants"><li>本社工場</li><li>元町工場</li><li>上郷工場</li><li>高岡工場</li><li>三好工場</li><li>堤工場</li><li>明知工場</li><li>下山工場</li><li>衣浦工場</li><li>田原工場</li></ul></div>
     <div class="rq" style="border-bottom:0"><h3>正社員登用制度</h3><p>登用試験は毎年4回。期間従業員として1年働くと挑戦でき、過去5年間で<b>1,022名</b>が正社員になっています。</p></div>
   </div>
 </section>
