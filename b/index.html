@@ -338,6 +338,24 @@ a{color:inherit}
   .iv__title{font-size:20px}
   .sp-row strong{font-size:23px}
 }
+/* ===== 最初の画面 案2（b-kv） ===== */
+.kb .kv__hand,.kb .kv__title,.kb .kv__tag{position:relative;z-index:3}
+.kb .kx__yuko{position:relative;z-index:2;margin:0;overflow:hidden}
+.kb .kx__yuko img{position:absolute;max-width:none;height:auto}
+.kb__scene{position:relative}
+.kb__name{position:absolute;z-index:3;white-space:nowrap;line-height:1.3;margin:0}
+.kb .kv-msg{z-index:3}
+.kb .kv__cta{position:relative;z-index:3}
+
+.kb2{background:#fff}
+.kb2 .kb__bg{position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(255,255,255,.97) 0%,rgba(255,255,255,.88) 24%,rgba(255,255,255,.12) 44%,rgba(255,255,255,0) 56%),url(../img/factory_wide.webp) center 60%/cover}
+.kb2 .kb__scene{margin:6px calc(var(--pad) * -1) 0}
+.kb2 .kx__yuko{height:calc(min(100vw,430px) * .55)}
+.kb2 .kx__yuko img{left:calc(min(100vw,430px) * .042);top:0;width:118%}
+.kb2 .kb__name{left:10px;top:14%;font-size:11px;color:#fff;background:var(--navy);padding:4px 10px;border-left:4px solid var(--red)}
+.kb2 .kb__name b{display:block;font-size:15px}
+.kb2 .kv-msg{box-shadow:0 -4px 0 rgba(0,0,0,.12)}
+
 </style>
 </head>
 <body>
@@ -370,13 +388,15 @@ a{color:inherit}
 <main id="top">
 
 <!-- キービジュアル -->
-<section class="kv">
+<!-- KV 案2（パターンB・背景に工場） -->
+<section class="kv kb kb2">
+  <div class="kb__bg" aria-hidden="true"></div>
   <span class="kv__hand">次のキャリアは、ここから。</span>
   <h1 class="kv__title">トヨタで、<br>新しいスタートを。</h1>
   <span class="kv__tag">トヨタ自動車 期間従業員 募集中</span>
-  <div class="kv__photo">
-    <img src="../img/yuko_desk.webp" alt="ソクワークのアンバサダー 小倉優子さん" width="1100" height="648" fetchpriority="high">
-    <p class="kv__talent">ソクワーク アンバサダー<b>小倉優子さん</b></p>
+  <div class="kb__scene">
+    <figure class="kx__yuko"><img src="../img/yuko_desk.webp" alt="ソクワークのアンバサダー 小倉優子さん" width="1100" height="648" fetchpriority="high"></figure>
+    <p class="kb__name">ソクワーク アンバサダー<b>小倉優子さん</b></p>
   </div>
   <p class="kv-msg">いま入社すると、祝い金が<br>合計<em class="num">100</em>万円！<small>※2026年9月以降に入社した方が対象です</small></p>
   <div class="kv__cta cta">
